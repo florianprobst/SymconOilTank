@@ -20,3 +20,13 @@ Derzeit sind dies 3-Variablen und 3 Variablenprofile. (Je nach IP-Symcon Lizenz 
 Durch das Speichern der Werte in IPS-Variablen wird Logging und das Anbinden von IPS-Events ermöglicht.
 Zur besseren Auffindbarkeit und eindeutigen Zuordnung werden alle Variablenprofile mit einem in der Modulkonfiguration festgelegten Präfix angelegt. 
 Standardmässig lautet das `oil_`.
+
+## ToDo
+* Ölverbrauch pro Stunde / Tag berechnen
+
+#ä Screenshots
+**Symcon-Console**
+![Symcon-Console](imgs/symcon-console.png)
+
+**Ölstand dokumentiert**
+![Ölstand](imgs/oil-level-absolute.png)
