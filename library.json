@@ -1,0 +1,12 @@
+{
+  "id": "{403FA465-ECD4-4B92-980D-85711B280CC1}",
+  "author": "Florian Probst",
+  "name": "SymconOilTank",
+  "url": "www.symcon.de",
+  "compatibility": {
+    "version": "5.0"
+  },
+  "version": "0.2",
+  "build": 0,
+  "date": 0
+}

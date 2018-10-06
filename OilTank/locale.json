@@ -1,0 +1,12 @@
+{
+  "translations": {
+    "de": {
+      "on": "an",
+      "off": "aus",
+      "instance": "Instanz",
+      "archive": "Archiv",
+      "maximum tank fill height": "Maximale Füllhöhe des Behälters in cm",
+      "Variable containing the fill height in cm": "Variable mit der Füllhöhe in cm"
+    }
+  }
+}

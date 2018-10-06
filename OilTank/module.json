@@ -1,0 +1,15 @@
+{
+  "id": "{9D0C0400-1D2B-47A0-BF67-0210E02B1E85}",
+  "name": "OilTank",
+  "type": 3,
+  "vendor": "",
+  "aliases":
+  [
+    "Oiltank",
+    "Öltank"
+  ],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "oil"
+}

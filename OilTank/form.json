@@ -1,0 +1,53 @@
+{
+  "elements":
+  [
+    { "type": "SelectVariable", "name": "FillHeight", "caption": "Variable containing the fill height in cm" },
+    { "type": "SelectInstance", "name": "ArchiveId", "caption": "archive instance" },
+    { "type": "ValidationTextBox", "name": "UpdateInterval", "caption": "update interval in seconds" },
+    { "type": "ValidationTextBox", "name": "MaxFillHeight", "caption": "maximum tank fill height" },
+    { "type": "ValidationTextBox", "name": "SensorDistance", "caption": "Abstand des Sensors zum Öl-Pegel eines maximal befüllten Behälters" },
+    { "type": "ValidationTextBox", "name": "TankCapacity", "caption": "Maximal zulässige Füllmenge des Tanks" },
+    { "type": "ValidationTextBox", "name": "VariablePrefix", "caption": "Variablen Prefix" },
+    { "type": "Select", "name": "TankType", "caption": "Art des Tanks",
+      "options": [
+        { "label": "Linear", "value": "linear" },
+        { "label": "Freiform", "value": "freeform" }
+      ]},
+    {
+      "type": "List",
+      "name": "OilLevels",
+      "caption": "Ölfüllstände",
+      "rowCount": 11,
+      "add": true,
+      "delete": true,
+      "columns": [{
+        "caption": "Ölpegel [cm]",
+        "name": "OilLevel",
+        "width": "75px",
+        "add": 0,
+        "edit": {
+          "type": "ValidationTextBox"
+        }
+      }, {
+        "caption": "Füllstand [liter]",
+        "name": "Liters",
+        "width": "auto",
+        "add": "",
+        "edit": {
+          "type": "ValidationTextBox"
+        }
+      }]
+    },
+    { "type": "Select", "name": "Debugging", "caption": "Debugging",
+      "options": [
+        { "label": "off", "value": false },
+        { "label": "on", "value": true }
+      ]}
+  ],
+  "actions": [
+    { "type": "Button", "label": "Update", "onClick": "oil_update($id);" }
+  ],
+  "status":
+  [
+  ]
+}
