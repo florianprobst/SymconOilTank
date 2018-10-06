@@ -14,8 +14,6 @@ eine eigene Füllstandstabelle in der Modulkonfiguration angelegt werden.
 * ProJET LevelJET ST, angebunden über einen ProJET JKM-868 (LevelJET) Modul
 * oder jeder andere Sensor, welche eine Füllstandshöhe in cm ausgibt
 
-##Konf
-
 ## Weiterführende Informationen
 Das Modul legt selbstständig benötigte Variablen und Variablenprofile an.
 Derzeit sind dies 3-Variablen und 3 Variablenprofile. (Je nach IP-Symcon Lizenz bitte berücksichtigen)
