@@ -5,7 +5,7 @@
     { "type": "SelectInstance", "name": "ArchiveId", "caption": "archive instance" },
     { "type": "ValidationTextBox", "name": "UpdateInterval", "caption": "update interval in seconds" },
     { "type": "ValidationTextBox", "name": "MaxFillHeight", "caption": "maximum tank fill height" },
-    { "type": "ValidationTextBox", "name": "SensorDistance", "caption": "Abstand des Sensors zum Öl-Pegel eines maximal befüllten Behälters" },
+    { "type": "ValidationTextBox", "name": "SensorDistance", "caption": "Sensorabstand zum Öl-Pegel bei max. Füllhöhe" },
     { "type": "ValidationTextBox", "name": "TankCapacity", "caption": "Maximal zulässige Füllmenge des Tanks" },
     { "type": "ValidationTextBox", "name": "VariablePrefix", "caption": "Variablen Prefix" },
     { "type": "Select", "name": "TankType", "caption": "Art des Tanks",
