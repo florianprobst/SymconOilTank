@@ -28,5 +28,5 @@ Standardmässig lautet das `oil_`.
 **Symcon-Console**
 ![Symcon-Console](imgs/symcon-console.png)
 
-**Ölstand dokumentiert**
+**Beispiel Ölstand / Tankinhalt über ein Jahr**
 ![Ölstand](imgs/oil-level-absolute.png)
