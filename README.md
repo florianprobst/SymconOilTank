@@ -1,8 +1,8 @@
 # SymconOilTank
 IP-Symcon Modul zur Datenerfassung und Auswertung von Öltanks.
 
-[![Release](https://img.shields.io/github/release/florianprobst/ips-oiltank.svg?style=flat-square)](https://github.com/florianprobst/ips-oiltank/releases/latest)
-[![License](https://img.shields.io/badge/license-LGPLv3-brightgreen.svg?style=flat-square)](https://github.com/florianprobst/ips-oiltank/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/release/florianprobst/ips-oiltank.svg?style=flat-square)](https://github.com/florianprobst/SymconOilTank/releases/latest)
+[![License](https://img.shields.io/badge/license-LGPLv3-brightgreen.svg?style=flat-square)](https://github.com/florianprobst/SymconOilTank/blob/master/LICENSE)
 
 ## Aufgabe des Moduls
 Dieses Modul liest von einem Ölpegelsensor Daten aus und ermittelt damit den aktuellen Ölstand absolut, in Litern und relativ, in Prozent aus.
